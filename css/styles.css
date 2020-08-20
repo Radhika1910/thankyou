@@ -1,0 +1,84 @@
+/* background */
+.big_img{
+  background-image: url(https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ padding-bottom: 40px;
+}
+
+/* navbar */
+
+#navBar{
+  color: #ffbcbc;
+}
+
+#navLink{
+  color: #fc9d9d;
+}
+
+#navLink:hover{
+  color: #ffcac2;
+}
+
+.navbar{
+  padding:20px 40px;
+}
+
+.navbar-brand{
+  font-family: 'Red Rose', cursive;
+  font-size: 40px;
+}
+
+.nav-item{
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* Thankyou */
+.Thankyou_head{
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 60px;
+  font-weight: bolder;
+
+}
+
+/* main */
+#main_body{
+ padding: 50px;
+}
+
+#main_body h3{
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main_body p{
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main_body .Thankyou_head{
+  margin-top: 25px;
+  text-align: right;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 5% 15% 3%;
+  background-color: #ffcac2;
+}
+
+.foot{
+  margin: 10px;
+}
+
+/* responsive */
+@media (max-width: 1000px){
+  #main_body{
+    text-align: center;
+  }
+}
